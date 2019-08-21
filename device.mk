@@ -130,7 +130,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2017-03-01
+    ro.mk.build.vendor_security_patch=2017-03-01
 
 # Wi-fi
 PRODUCT_COPY_FILES += \

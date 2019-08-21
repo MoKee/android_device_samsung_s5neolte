@@ -21,11 +21,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
-# Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common MK phone.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_s5neolte
+PRODUCT_NAME := mk_s5neolte
 PRODUCT_DEVICE := s5neolte
 PRODUCT_MODEL := SM-G903F
 PRODUCT_BRAND := samsung
